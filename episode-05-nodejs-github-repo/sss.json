@@ -1,0 +1,122 @@
+{
+  "editor.autoIndent": "full",
+  "editor.lineNumbers": "on",
+  "editor.cursorBlinking": "solid",
+  "files.associations": {
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+  "typescript.check.tscVersion": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.autoImports": true,
+  "javascript.preferences.quoteStyle": "single",
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "terminal.integrated.shell.osx": "/bin/bash",
+  "diffEditor.wordWrap": "on",
+  "editor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
+  "editor.linkedEditing": true,
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "terminal.integrated.fontSize": 18,
+  "editor.fontSize": 20,
+
+  "editor.tabSize": 1,
+  "editor.guides.bracketPairsHorizontal": true,
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.enableSmartCommit": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "tab.inactiveBackground": "#1e2028",
+    "tab.activeBackground": "#000000"
+  },
+
+  "editor.fontVariations": true,
+  "editor.fontFamily": "'Ubuntu Mono','Droid Sans Mono', 'monospace', monospace",
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "todohighlight.isEnable": false,
+  "workbench.editor.empty.hint": "hidden",
+  "json.schemas": [],
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "editor.lineHeight": 32,
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": false,
+  "vim.startInInsertMode": true,
+  "workbench.startupEditor": "none",
+  "tabnine.experimentalAutoImports": true,
+  "explorer.confirmPasteNative": false,
+  "git.autofetch": true,
+
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "args": [],
+      "icon": "terminal-bash"
+    },
+    "Zsh": {
+      "path": "zsh",
+      "args": [],
+      "icon": "terminal-zsh"
+    },
+    "10october": {
+      "path": "/path/to/your/custom/profile",
+      "args": [],
+      "icon": "terminal-custom"
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "10october",
+  "window.zoomLevel": 1,
+  "diffEditor.hideUnchangedRegions.enabled": true
+}

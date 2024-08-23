@@ -1,5 +1,10 @@
-const { sumVariable, sumFunction, mul } = require("./calculation");
+const fs = require("fs");
+const fs2 = require("node:fs");
+fs === fs2 ? console.log("both are true") : console.log("false");
 
-console.log(sumVariable);
-sumFunction(1, 2, 4);
-mul(10, 20);
+// const { sumVariable, sumFunction, mul } = require("./calculation");
+
+// console.log(sumVariable);
+// sumFunction(1, 2, 4);
+// mul(10, 20);
+fs

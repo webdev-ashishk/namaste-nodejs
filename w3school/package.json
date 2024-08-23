@@ -1,0 +1,14 @@
+{
+  "name": "w3school",
+  "scripts": {
+    "start": "nodemon sendMain.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.14"
+  }
+}

@@ -1,8 +1,9 @@
+const fs = require("node:fs");
 require("./xyz");
 const data = require("./data");
 const util = require("node:util");
 const { calculateSum, multiply } = require("./calculate");
-
+console.log("fs");
 calculateSum(10, 20);
 multiply(10, 20);
 console.log(data);

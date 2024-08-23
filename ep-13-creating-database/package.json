@@ -1,0 +1,14 @@
+{
+  "name": "ep-13-creating-database",
+  "scripts": {
+    "start": "node database.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}
