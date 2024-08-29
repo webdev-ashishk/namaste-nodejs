@@ -22,6 +22,6 @@ router.get("/handlemultiplication", handleMultiplication);
 router.post("/handlefrontenddata", handleFrontEndData);
 router.get("/handleskills", handleSkills);
 router.get("/users", handleUsers);
-router.get("/handleusersdynamicid", handleUsersDynamicID);
+router.get("/users/:userid", handleUsersDynamicID);
 
 module.exports = router;
