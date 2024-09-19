@@ -1,18 +1,13 @@
 const { default: axios } = require('axios');
 const express = require('express');
 const app = express();
-const uri = `http://localhost:1111/handlesum?counter1=2000&counter2=2000`;
-app.get('/', (req, res) => {
-  res.json('welcome to server2.js');
-});
-// axios
-// .get(uri)
-// .then((response = console.log(response)))
-// .catch((err = console.log(err)));
-async function getSumResultFromServerOne() {
+const uri = `http://localhost:1111/handlesum?counter1=3000&counter2=2000`;
+app.get('/', getSumResultFromServerOne);
+async function getSumResultFromServerOne(res, res) {
   try {
     const response = await axios.get(uri);
     console.log(response?.data);
+    res.json(response.data);
   } catch (err) {
     console.log(err);
   }
