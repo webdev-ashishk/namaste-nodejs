@@ -4,7 +4,7 @@ const port = 3000;
 const connectDB = require('./db/connect');
 const multer = require('multer');
 const cloudinary = require('cloudinary').v2;
-const pass = require('path');
+const path = require('path');
 
 // Configuration
 cloudinary.config({
@@ -27,7 +27,10 @@ app.post('/uploadImage', upload.single('avatar'), async (req, res) => {
     if (!cloudinaryResponse) {
       throw new Error('cloudinary response not found ...');
     }
-    res.status(200).send('uploaded successfuly...', cloudinaryResponse);
+    // res
+    //   .status(200)
+    //   .json({ meesage: 'uploaded successfuly...', data: cloudinaryResponse });
+    res.sendFile(path.join(__dirname, 'index.html'));
   } catch (error) {
     res.status(400).send(`you are inside catch block ${error.message}`);
   }
